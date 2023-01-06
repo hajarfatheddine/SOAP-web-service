@@ -36,7 +36,7 @@ The WSDL document is typically used by a client application to understand how to
 
 To consult the WSDL document, we need to type in the URL <http://localhost:9191/?wsdl> whuch results in:
 
-![image](https://user-images.githubusercontent.com/84817425/211078151-ac3f2aaa-9a13-4885-8588-5a66118f0b35.png)
+![image](https://user-images.githubusercontent.com/84817425/211083586-b878f748-2603-4da0-b81d-422f5b77238a.png)
 
 ### Testing the different W.S. functionnalities using SoapUI:
 
