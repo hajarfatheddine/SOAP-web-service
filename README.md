@@ -21,8 +21,8 @@ The W.S. contains:
 import jakarta.xml.ws.Endpoint;
 public class ServerJWS {
     public static void main(String[] args) {
-        Endpoint.publish("http://0.0.0.0:8888/",new BanqueService());
-        System.out.println("Web service déployé sur: http://0.0.0.0:8888/");
+        Endpoint.publish("http://0.0.0.0:9191/",new BanqueService());
+        System.out.println("Web service déployé sur: http://0.0.0.0:9191/");
     }
 }
  ```
@@ -34,7 +34,7 @@ The WSDL document describes the web service and defines the operations that can 
 
 The WSDL document is typically used by a client application to understand how to interact with a web service. The client can use the information in the WSDL to generate code to send requests to the web service and process the responses.
 
-To consult the WSDL document, we need to type in the URL <http://localhost:9191/?wsdl> whuch results in:
+To consult the WSDL document, we need to type in the URL <http://localhost:9191/?wsdl> which results in:
 
 ![image](https://user-images.githubusercontent.com/84817425/211083586-b878f748-2603-4da0-b81d-422f5b77238a.png)
 
@@ -44,7 +44,7 @@ To do so:
 
 1. we created a new Soap project and gave it the URL to the WSDL document.
 
-![image](https://user-images.githubusercontent.com/84817425/211078758-f987166b-64d7-4260-849c-9785be4b531a.png)
+![image](https://user-images.githubusercontent.com/84817425/211084155-71f1b48a-1c0f-42ad-8995-8d2a1997f28f.png)
 
 This operation results in: 
 
@@ -52,7 +52,7 @@ This operation results in:
 
 2. we then tested the different OP. For example:
 
-![Capture d’écran 2023-01-06 195102](https://user-images.githubusercontent.com/84817425/211079635-add01f95-58b9-4f9d-8334-1cabdc1a5ea1.png)
+![Capture d’écran 2023-01-06 202109](https://user-images.githubusercontent.com/84817425/211084570-85998360-430d-4cb6-b393-c4b853d8f877.png)
 
 We sent a request containing the amount of `806 Euro` and the response contained the converted amount in `MAD`.
 
