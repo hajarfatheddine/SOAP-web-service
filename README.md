@@ -26,7 +26,7 @@ public class ServerJWS {
     }
 }
  ```
-The web service is deployed and hosted on the ServerJWS and can be accessed using the URL <http://0.0.0.0:8888/> 
+The web service is deployed and hosted on the ServerJWS and can be accessed using the URL <http://0.0.0.0:9191/> 
  
 ---
 ### Consulting the WSDL:
@@ -34,7 +34,7 @@ The WSDL document describes the web service and defines the operations that can 
 
 The WSDL document is typically used by a client application to understand how to interact with a web service. The client can use the information in the WSDL to generate code to send requests to the web service and process the responses.
 
-To consult the WSDL document, we need to type in the URL <http://localhost:8888/?wsdl> whuch results in:
+To consult the WSDL document, we need to type in the URL <http://localhost:9191/?wsdl> whuch results in:
 
 ![image](https://user-images.githubusercontent.com/84817425/211078151-ac3f2aaa-9a13-4885-8588-5a66118f0b35.png)
 
